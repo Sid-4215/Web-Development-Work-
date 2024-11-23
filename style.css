@@ -39,44 +39,102 @@
     height: 50px; 
 }
 
-
 .template_grid {
-    justify-content: center;
-    padding: 20px;
-    background-color: #f9f9f9;
+    margin: 80px auto;
+    width: 90%;
+    max-width: 1200px;
 }
 
 .template_list {
-    display: block;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px; 
-    width: 100%; 
-    max-width: 1200px; 
+    gap: 60px;
 }
 
 .template_thambnail_card {
-    background-color: white; 
+    background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
-
 .template_thambnail_card:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow */
 }
 
 .template_thambnail_card img {
-    display: block;
     width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ddd;
+    height: 350px; 
+    display: block;
+    border-bottom: 1px solid #ddd; 
 }
 
-.template_thambnail_card a {
-    text-decoration: none;
-    color: inherit;
+.login_outer_container{
+       width: 1236.0px;
+       height: 650px;
+       font-family: Arizonia;
+       font-size : 15px;
+       text-align: center;
+       font-weight: 400;
+       text-transform: none;
+       color: #000000;
+       background-color: white;
+       border-top-left-radius:37px;
+       border-top-right-radius: 37px;
+       border-bottom-left-radius: 37px;
+       border-bottom-right-radius: 37px;
+       filter:drop-shadow(-2.3E - 16px 4px 7px #b9b9b9(50%)) 
+
+}
+.login_inner_container{
+    width: 429.8000000000004px;
+    height: 613.0000000000002px;
+    
+}
+
+#login_welcome{
+width: 243.32798767089844px;
+height: 48.0px;
+font-family: Poppins;
+font-size: 32.0px;
+font-weight: 600;
+text-transform: none;
+color: #000000;
+
+}
+#details_request_text{
+width: 300.0888671875px;
+height: 21.0px;
+font-family: Poppins;
+font-size: 14.0px;
+font-weight: 300;
+text-transform: none;
+color: #9A9CA5;
+}
+            <div class="google_login_button_outer_container">
+.google_login_button_outer_container{
+width: 0.0px;
+height: 0.0px;
+
+}
+#google_login_button{
+width: 326.0px;
+height: 41.0px;
+font-family: Montserrat;
+font-size: 15.0px;
+font-weight: 400;
+text-align: center;
+text-transform: none;
+color: #2B2B2B;
+border-top: 1.0px solid #ABB0B3;
+border-right: 1.0px solid #ABB0B3;
+border-bottom: 1.0px solid #ABB0B3;
+border-left: 1.0px solid #ABB0B3;
+border-top-left-radius: 0.645px;
+border-top-right-radius: 0.645px;
+border-bottom-left-radius: 0.645px;
+border-bottom-right-radius: 0.645px;
+padding-left: 10px;
 }
