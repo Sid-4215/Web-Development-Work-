@@ -3,33 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <title>Login Form</title>
 </head>
 <body>
-    <header><h1>login Page and Register page</h1></header>
-    <div class="login_outer_container">
-        <div class="login_inner_container">
-            <header>
-                <div>
-                    <label id="login_welcome">Welcome</label><br>
-                    <label id="details_request_text">please enter your details</label>
-                </div>
-            </header>
-            <div class="google_login_button_outer_container">
-                <button id="google_login_button" type="submit">Sign in with Google</button>
+    <div class="base">
+
+        <div class="sign_in_panel">
+            <div class="sign_in_panel_inside_container">
+                    <div class="google_button_container">
+                        <h2 id="welcomegrit">Welcome Back</h2>
+                        <h3 id="detail_fill_instruction">Please enter your details</h3>
+                            <button id="google_login_button">Sign In With Google</button>
+                    </div>
+                    <div class="input_container">  
+                        <label id="inputlabel" for="email">Email Address</label><br>
+                        <input id="input_box" type="email" required>
+                    </div>
+                    <div class="input_container">  
+                        <label id="inputlabel" for="email">Password</label><br>
+                        <input id="input_box" type="password">
+                        <a id="forgot_password_link" href="forgotpassword.html">Forgot Password?</a>
+                    </div>
+
+                    <div class="sign_in_container">
+                        <button id="sign_in_button" onclick="location.href='registrationsu.html';">Sign In</button><br>
+                    </div>
+                    <div class="account_exist_question">
+                        <label id="new_registration_question">Don't have an account ? </label>
+                        <a href="newaccountregistration.html">Sign Up</a>
+                    </div>
             </div>
-            
-            <div class="email_container">
-                <label id="email_label" for="email">Email</label><br>
-                <input type="email" class="email_container_box" placeholder="name@example.com" required>  
-            </div>
-            <div class="password_container">
-                <label id="password_label" for="password">Password</label><br>
-                <input type="password" class="password" required>  
-            </div>
-            <button id="login_button" type="submit">Login</button>
-            <button id="register_button" type="submit">New Register</button>
+        </div>
+        <div class="sign_in_page_picture_frame">
+            <img src="./img/charlotte-cowell-0bhV8dtzs0A-unsplash.jpg" alt="">
         </div>
     </div>
 </body>

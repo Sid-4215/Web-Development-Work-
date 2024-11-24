@@ -8,7 +8,7 @@
 </head>
 <body> 
         <header class="home_header">
-            <div class="header_logo"><img src="./img/Logo.png" alt="logo" height="80" width="200"></div>
+            <div class="header_logo"><img src="./img/Logo.png" alt="logo"></div>
             <nav class="navbar_menu_container">
                 <span class="navbar_menu">
                     <button onclick="location.href='resumebuilder.html';" type="button" class="dropdown_menu_button" title="Home">Home</button>
@@ -25,6 +25,16 @@
                 <button id="sign_in_button" onclick="location.href='login.html';">Sign In</button>
             </div>
         </header>
+
+        <div id="search_container">
+            <form id="search_bar_form" action="">
+                <div class="search_bar_container">
+                    <input type="text" id="search_bar" placeholder="Search Templates">
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+            <button type="menu" id="category_search">Category</button>
+        </div>
 
         <div class="template_grid">  
             <div class="template_list">
