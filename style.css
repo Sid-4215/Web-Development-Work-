@@ -112,11 +112,12 @@
 
 #search_bar_form button {
     height: 60px;
+    margin: 3px;
     padding-left:1px;
     width: 60px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #020202;
+    background-color: #333232;
     border: none;
     border-radius:90px ;
     cursor: pointer;
@@ -205,7 +206,7 @@ border-color: #ABB0B3;
 
 .google_button_container{
     text-align: left;
-    margin: 20px 35px;
+    margin: 20px 40px;
     padding-bottom: 10px;
 }
 .welcomebox{
@@ -262,7 +263,7 @@ padding-left: 10px;
 }
 
 .input_container{
-    margin: 20px 33px;
+    margin: 20px 50px;
     text-align: left;
 }
 .input_container #forgot_password_link{
@@ -282,7 +283,7 @@ color: #212529;
 
 }
 
-#input_box{
+.input_container #password{
 width: 306.0px;
 height: 35.99999999999994px;
 font-family: Poppins;
@@ -301,8 +302,30 @@ border-bottom-left-radius: 0.7599999999999989px;
 border-bottom-right-radius: 0.7599999999999989px;
 padding-right: 15px;
 padding-left: 15px;
-
 }
+
+.input_container #email{
+    width: 306.0px;
+    height: 35.99999999999994px;
+    font-family: Poppins;
+    font-size: 13.0px;
+    font-weight: 300;
+    text-transform: none;
+    color: #212529;
+    background-color: #FFFFFF;
+    border-top: 1.0px solid #CED4DA;
+    border-right: 1.0px solid #CED4DA;
+    border-bottom: 1.0px solid #CED4DA;
+    border-left: 1.0px solid #CED4DA;
+    border-top-left-radius: 0.7599999999999989px;
+    border-top-right-radius: 0.7599999999999989px;
+    border-bottom-left-radius: 0.7599999999999989px;
+    border-bottom-right-radius: 0.7599999999999989px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+    
+
 .sign_in_container{
     margin: 20px 35px;
 }
@@ -327,9 +350,37 @@ border-bottom-left-radius: 0.7959999999999999px;
 border-bottom-right-radius: 0.7959999999999999px;
 }
 
-.account_exist_question {
+.account_exist_question{
+    text-align: center;
     margin: 33px;
 }
+
+.account_exist_question #sign_up_link{
+width: 47.983001708984375px;
+height: 19.0px;
+font-family: Poppins;
+font-size: 13.0px;
+font-weight: 300;
+text-decoration: underline;
+text-transform: none;
+color: #0099FF;
+
+
+}
+#forgot_password_link {
+text-align: left;
+float: right;
+width: 120px;
+height: 19.0px;
+font-family: Poppins;
+font-size: 13.0px;
+font-weight: 300;
+text-decoration: underline;
+text-transform: none;
+color: #0099FF;
+}
+
+
 
 .sign_in_page_picture_frame img{
 border-radius: 10px;

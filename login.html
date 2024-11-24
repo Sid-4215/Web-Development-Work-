@@ -3,40 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign In</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="base">
-
         <div class="sign_in_panel">
             <div class="sign_in_panel_inside_container">
-                    <div class="google_button_container">
-                        <h2 id="welcomegrit">Welcome Back</h2>
-                        <h3 id="detail_fill_instruction">Please enter your details</h3>
-                            <button id="google_login_button">Sign In With Google</button>
+                <div class="google_button_container">
+                    <h1 id="welcome_greeting">Welcome Back</h1>
+                    <h2 id="detail_fill_instruction">Please enter your details</h2>
+                    <button id="google_login_button" type="button">Sign In With Google</button>
+                </div>
+                <form action="registrationsu.html" id="sign_in_form">
+                    <div class="input_container">  
+                        <label for="email">Email Address</label><br>
+                        <input id="email" name="email" type="email" required>
                     </div>
                     <div class="input_container">  
-                        <label id="inputlabel" for="email">Email Address</label><br>
-                        <input id="input_box" type="email" required>
-                    </div>
-                    <div class="input_container">  
-                        <label id="inputlabel" for="email">Password</label><br>
-                        <input id="input_box" type="password">
+                        <label for="password">Password</label><br>
+                        <input id="password" name="password" type="password" required>
                         <a id="forgot_password_link" href="forgotpassword.html">Forgot Password?</a>
                     </div>
-
                     <div class="sign_in_container">
-                        <button id="sign_in_button" onclick="location.href='registrationsu.html';">Sign In</button><br>
+                        <button id="sign_in_button" type="submit">Sign In</button><br>
                     </div>
-                    <div class="account_exist_question">
-                        <label id="new_registration_question">Don't have an account ? </label>
-                        <a href="newaccountregistration.html">Sign Up</a>
-                    </div>
+                </form>
+                <div class="account_exist_question">
+                    <p id="new_registration_question">Don't have an account? 
+                        <a id="sign_up_link" href="newaccountregistration.html">Sign Up</a>
+                    </p>
+                </div>
             </div>
         </div>
         <div class="sign_in_page_picture_frame">
-            <img src="./img/charlotte-cowell-0bhV8dtzs0A-unsplash.jpg" alt="">
+            <img src="./img/charlotte-cowell-0bhV8dtzs0A-unsplash.jpg" alt="Decorative background">
         </div>
     </div>
 </body>
